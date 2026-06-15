@@ -1,0 +1,17 @@
+# 虚拟环境:不跨机器/跨系统通用,新机器用 setup 脚本重建
+.venv/
+
+# 抓屏产物
+dumps/
+
+# 本地状态库
+*.db
+*.sqlite
+
+# Python 缓存
+__pycache__/
+*.pyc
+
+# 本地配置(含账号/密钥等敏感信息,如果以后有)
+config.local.py
+.env
